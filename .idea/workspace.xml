@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79a26ad7-63ac-4740-a59b-174e8063d0c9" name="Changes" comment="Banknotes">
-      <change afterPath="$PROJECT_DIR$/src/main/week1/GrenaisCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/week1/WeightedAverages.java" afterDir="false" />
+    <list default="true" id="79a26ad7-63ac-4740-a59b-174e8063d0c9" name="Changes" comment="fa">
+      <change afterPath="$PROJECT_DIR$/src/main/week1/LogicalSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/week1/SequenceIJ4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,23 +46,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WeightedAverages">
-    <configuration name="ArraySumAndAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySumAndAverage" />
-      <module name="Neo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Banknotes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Banknotes" />
-      <module name="Neo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BanknotesAndCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BanknotesAndCoins" />
+  <component name="RunManager" selected="Application.GameDuration">
+    <configuration name="GameDuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameDuration" />
       <module name="Neo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,6 +56,20 @@
     </configuration>
     <configuration name="GrenaisCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GrenaisCounter" />
+      <module name="Neo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogicalSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicalSequence" />
+      <module name="Neo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequenceIJ4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SequenceIJ4" />
       <module name="Neo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameDuration" />
+        <item itemvalue="Application.LogicalSequence" />
+        <item itemvalue="Application.SequenceIJ4" />
         <item itemvalue="Application.WeightedAverages" />
         <item itemvalue="Application.GrenaisCounter" />
-        <item itemvalue="Application.ArraySumAndAverage" />
-        <item itemvalue="Application.BanknotesAndCoins" />
-        <item itemvalue="Application.Banknotes" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +103,7 @@
       <workItem from="1697791203623" duration="369000" />
       <workItem from="1697791631414" duration="242000" />
       <workItem from="1697791878360" duration="6302000" />
-      <workItem from="1697801130414" duration="2026000" />
+      <workItem from="1697801130414" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="TriangleTypes">
       <created>1697791863983</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697802019223</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fa">
+      <created>1697803958833</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697803958833</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +188,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TriangleTypes" />
     <MESSAGE value="Banknotes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Banknotes" />
+    <MESSAGE value="fa" />
+    <option name="LAST_COMMIT_MESSAGE" value="fa" />
   </component>
 </project>
