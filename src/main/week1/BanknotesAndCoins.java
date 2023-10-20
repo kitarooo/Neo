@@ -3,23 +3,23 @@ import java.util.Scanner;
 public class BanknotesAndCoins {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double value = Double.parseDouble(scanner.next());
+        double value = Double.parseDouble(scanner.next()) * 100;
 
-        int[] notes = {100, 50, 20, 10, 5, 2};
-        double[] coins = {1.00, 0.50, 0.25, 0.10, 0.05, 0.01};
+        double[] notes = {10000, 5000, 2000, 1000, 500, 200};
+        double[] coins = {100, 50, 25, 10, 5, 1};
 
         System.out.println("NOTAS:");
-        for (int note : notes) {
-            int count = (int) (value / note);
-            System.out.println(count + " nota(s) de R$ " + note + ".00");
-            value %= note;
+        for (double note : notes) {
+            int nominal = (int) (value / note);
+            System.out.println(nominal + " nota(s) de R$ " + String.format("%.2f", note));
+            value = value % note;
         }
 
         System.out.println("MOEDAS:");
         for (double coin : coins) {
-            int count = (int) (value / coin);
-            System.out.println(count + " moeda(s) de R$ " + String.format("%.2f", coin));
-            value %= coin;
+            int nominal = (int) (value / coin);
+            System.out.println(nominal + " moeda(s) de R$ " + String.format("%.2f", coin/100));
+            value = value % coin;
         }
 
         scanner.close();
