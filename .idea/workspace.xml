@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a26ad7-63ac-4740-a59b-174e8063d0c9" name="Changes" comment="Banknotes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/week1/ArraySumAndAverage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/black" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,7 +92,7 @@
       <updated>1697791202225</updated>
       <workItem from="1697791203623" duration="369000" />
       <workItem from="1697791631414" duration="242000" />
-      <workItem from="1697791878360" duration="6062000" />
+      <workItem from="1697791878360" duration="6302000" />
     </task>
     <task id="LOCAL-00001" summary="TriangleTypes">
       <created>1697791863983</created>
@@ -126,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697795526882</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Banknotes">
+      <created>1697800950758</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697800950758</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
