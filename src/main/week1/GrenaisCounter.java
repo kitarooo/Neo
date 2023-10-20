@@ -7,9 +7,8 @@ public class GrenaisCounter {
         int interWins = 0;
         int gremioWins = 0;
         int draws = 0;
-        int input = 1;
 
-        while (input == 1) {
+        while (true) {
             int interGoals = scanner.nextInt();
             int gremioGoals = scanner.nextInt();
 
@@ -23,7 +22,7 @@ public class GrenaisCounter {
 
             grenais++;
             System.out.println("Novo grenal (1-sim 2-nao)");
-            input = scanner.nextInt();
+            if (scanner.nextInt()==2)break;
         }
 
         scanner.close();

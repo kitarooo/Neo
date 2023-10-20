@@ -4,25 +4,25 @@ public class GameDuration {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int startHour = scanner.nextInt();
-        int startMinute = scanner.nextInt();
-        int endHour = scanner.nextInt();
-        int endMinute = scanner.nextInt();
+        int startH = scanner.nextInt();
+        int startM = scanner.nextInt();
+        int endH = scanner.nextInt();
+        int endM = scanner.nextInt();
 
-        int totalStartMinutes = startHour * 60 + startMinute;
-        int totalEndMinutes = endHour * 60 + endMinute;
+        int totalStart = startH * 60 + startM;
+        int totalEnd = endH * 60 + endM;
 
-        int durationMinutes;
-        if (totalStartMinutes < totalEndMinutes) {
-            durationMinutes = totalEndMinutes - totalStartMinutes;
+        int duration = 0;
+        if (totalStart < totalEnd) {
+            duration = totalEnd - totalStart;
         } else {
-            durationMinutes = (24 * 60 - totalStartMinutes) + totalEndMinutes;
+            duration = (24 * 60 - totalStart) + totalEnd;
         }
 
-        int durationHours = durationMinutes / 60;
-        durationMinutes %= 60;
+        int durationH = duration / 60;
+        duration = duration % 60;
 
-        System.out.println("O JOGO DUROU " + durationHours + " HORA(S) E " + durationMinutes + " MINUTO(S)");
+        System.out.println("O JOGO DUROU " + durationH + " HORA(S) E " + duration + " MINUTO(S)");
 
         scanner.close();
     }
