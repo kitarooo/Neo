@@ -11,7 +11,7 @@ public class BanknotesAndCoins {
         System.out.println("NOTAS:");
         for (double note : notes) {
             int nominal = (int) (value / note);
-            System.out.println(nominal + " nota(s) de R$ " + String.format("%.2f", note));
+            System.out.println(nominal + " nota(s) de R$ " + String.format("%.2f", note/100));
             value = value % note;
         }
 
