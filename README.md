@@ -14,4 +14,10 @@ This rep was created in October 16.
 
 ---
 
-kekw
+```java
+ public static void main (String[]args){
+        System.out.println("Hello, World!");
+    }
+```
+
+here was Azamat
