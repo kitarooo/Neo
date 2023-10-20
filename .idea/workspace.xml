@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a26ad7-63ac-4740-a59b-174e8063d0c9" name="Changes" comment="Banknotes">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Banknotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/week1/Banknotes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TriangleTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/week1/TriangleTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/week1/Banknotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/week1/Banknotes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <updated>1697791202225</updated>
       <workItem from="1697791203623" duration="369000" />
       <workItem from="1697791631414" duration="242000" />
-      <workItem from="1697791878360" duration="772000" />
+      <workItem from="1697791878360" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="TriangleTypes">
       <created>1697791863983</created>
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697792477033</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Banknotes">
+      <created>1697792681509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697792681509</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

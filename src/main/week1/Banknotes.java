@@ -3,16 +3,17 @@ import java.util.Scanner;
 public class Banknotes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int amount = scanner.nextInt();
-        System.out.println(amount);
 
-        int[] banknotes = { 100, 50, 20, 10, 5, 2, 1 };
-        int[] quantity = new int[7];
+        int value = scanner.nextInt();
+        System.out.println(value);
 
-        for (int i = 0; i < 7; i++) {
-            quantity[i] = amount / banknotes[i];
-            amount %= banknotes[i];
-            System.out.println(quantity[i] + " nota(s) de R$ " + banknotes[i] + ",00");
+        int[] notes = {100, 50, 20, 10, 5, 2, 1};
+
+
+        for (int note : notes) {
+            int count = value / note;
+            System.out.println(count + " nota(s) de R$ " + note + ",00");
+            value = value % note;
         }
 
         scanner.close();
