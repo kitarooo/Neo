@@ -16,14 +16,13 @@ public class Main {
         ClientsDAO clientsDAO = new ClientsDAO();
 
         //add new client
-
         clientsDAO.addClient(connection, 1, "Sultan");
 
         //update client_name
-        //clientsDAO.updateClientById(connection,1,"Joel");
+        clientsDAO.updateClientById(connection,1,"NeoSultan");
 
-        //SELECT * FROM clients
-        //clientsDAO.selectAllClient(connection);
+        //show clients
+        clientsDAO.selectAllClient(connection);
 
         //delete client by id
         //clientsDAO.deleteClientById(connection,1);
@@ -33,16 +32,15 @@ public class Main {
         CarDAO carDAO = new CarDAO();
 
         //add new car
-
         carDAO.addCar(connection,1,"X5","BMW", 500);
 
         //update product by id
-        //productsDAO.updateProductById(connection,1,"cola",550);
-
-        //delete prodct by id
-        //productsDAO.deleteProductById(connection,1);
+        carDAO.updateCarById(connection,1,"911", "Porsche",550);
 
         //check all
         carDAO.selectAllCars(connection);
+
+        //delete prodct by id
+        //carDAO.deleteCarById(connection,1);
     }
 }
