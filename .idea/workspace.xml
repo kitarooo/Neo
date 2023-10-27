@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a26ad7-63ac-4740-a59b-174e8063d0c9" name="Changes" comment="week2">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/Dao/CarDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/Dao/ClientsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/MysqlConnector/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/Pojo/Cars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/Pojo/Clients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/Pojo/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2023_14_50_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2023_14_50__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/week1/ArraySumAndAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/ArraySumAndAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/week1/Banknotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/Banknotes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/week1/BanknotesAndCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/BanknotesAndCoins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/week1/GameDuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/GameDuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/week1/GrenaisCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/GrenaisCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/week1/LogicalSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/LogicalSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/week1/PupulationIncrease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/PupulationIncrease.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/week1/SequenceIJ4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/SequenceIJ4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/week1/TriangleTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/TriangleTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/week1/WeightedAverages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/WeightedAverages.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +39,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -144,7 +121,7 @@
       <workItem from="1697801130414" duration="9771000" />
       <workItem from="1698396954546" duration="40000" />
       <workItem from="1698397027007" duration="581000" />
-      <workItem from="1698398506623" duration="9293000" />
+      <workItem from="1698398506623" duration="9948000" />
     </task>
     <task id="LOCAL-00001" summary="TriangleTypes">
       <created>1697791863983</created>
@@ -258,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697814638371</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="week2">
+      <created>1698410682181</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1698410682181</updated>
+    </task>
+    <task id="LOCAL-00018" summary="week2">
+      <created>1698410835909</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698410835909</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
