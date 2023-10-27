@@ -1,3 +1,5 @@
+package week1;
+
 public class SequenceIJ4 {
     public static void main(String[] args) {
         for (double i = 0.0 ; i < 2.1 ; i += 0.2) {
